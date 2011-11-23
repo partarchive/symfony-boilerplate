@@ -1,0 +1,12 @@
+NameVirtualHost *:80
+<VirtualHost *:80>
+  ServerName server_name
+  DocumentRoot "/path/to/project/web"
+  DirectoryIndex app_dev.php
+  AddType application/x-httpd-php .php
+
+  <Directory "/path/to/project/web">
+    AllowOverride None
+    Allow from All
+  </Directory>
+</VirtualHost>
