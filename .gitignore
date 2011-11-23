@@ -1,0 +1,11 @@
+# symfony 2.0 files
+web/bundles/
+app/bootstrap.php.cache
+app/cache/*
+app/logs/*
+build/
+vendor/
+
+# editor/OS files
+.DS_Store
+*.swp
